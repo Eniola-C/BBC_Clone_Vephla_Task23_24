@@ -1,0 +1,951 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+html{
+    font-size: "62.5%";
+}
+.section1 {
+    position: relative;
+    background-color: black;
+    height:  90.45px;
+    font-size: 1rem;
+}
+.logo1 {
+    position: absolute;
+    left: 30px;
+    top: 19px;   
+}
+.logo1 img{
+    height: 45px;
+    width: 130px;
+    font-size: 1.1625rem;
+}
+
+.input {
+    position: absolute;
+    top: 20px;
+    left: 530px;
+}
+
+#search {
+    width: 240px;
+    height: 48px;
+    font-size: 0.9rem;
+    padding-left: 30px;
+    outline: none;
+    color: gray;
+    border: 1px solid #ced4da;
+}
+
+.icon2 {
+    top: 0px;
+    left: 191px;
+}
+
+.button1 {
+    width: 49px;
+    height: 48px;
+}
+
+.about {
+    top: 99px;
+    left: 128px;
+    z-index: 1;
+}
+
+.icon3 {
+    top: 99px;
+    left: 199px;
+    z-index: 1;
+}
+
+.doings {
+    top: 99px;
+    left: 230px;
+    z-index: 1;
+}
+
+.icon4 {
+    top: 99px;
+    left: 325px;
+    z-index: 1;
+}
+
+.people {
+    top: 99px;
+    left: 350px;
+    z-index: 1;
+}
+
+.icon5 {
+    top: 99px;
+    left: 490px;
+    z-index: 1;
+}
+
+.news {
+    top: 99px;
+    left: 520px;
+    z-index: 1;
+}
+
+.contact {
+    top: 99px;
+    left: 585px;
+    z-index: 1;
+}
+
+.icon6 {
+    top: 99px;
+    left: 656px;
+    z-index: 1;
+}
+.section2{
+    position: relative;
+    height: 660px;
+    background-image: url(./images/bbc\ bg2.png);  
+}
+.section2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.section3{
+    position: relative;
+    height: 600px;
+    background-color: #000;
+    top: -126px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.word1{
+position: absolute;
+top: 57px;
+left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.15rem;
+font-weight: 700;
+width: auto;
+line-height: normal;
+color: #fff;
+}
+.hr1{
+   position: absolute;
+   top: 160px;
+   width: 700px;
+   height: 0.9px;
+   color: #fff;
+   left: 50px;
+}
+.word2{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 720px;
+    color: #fff;
+    font-size: 1.05rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-weight: 400;
+}
+.more{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+.button2{
+    width: 190px;
+    height: 40px;
+    background-color: #d93d33;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.825rem;
+    font-weight: 700;
+}
+.button2:hover{
+background-color: #b73028;
+color: #fff;
+}
+.section4{
+position: relative;
+height: 1190px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.latest{
+position: absolute;
+top: -90px;
+left: 50px;
+font-size: 1.5rem;
+font-weight: 700;
+}
+.latest a{
+text-decoration: none;
+color: #000;
+}
+.latest a:hover{
+text-decoration: underline;
+color: #000;
+}
+.img2{
+    position: absolute;
+    top: -40px;
+    left: 50px;
+}
+.img2 img{
+    width: 220px;
+    height: 190px;
+}
+.word3{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-size: 0.875rem;
+    width: 241px;
+}
+.word3 a{
+    text-decoration: underline;
+    color: #000;
+}
+.word3 a:hover{
+    text-decoration: underline;
+    color: #b73028;
+}
+.date1{
+    position: absolute;
+    top: 265px;
+    left: 50px;
+    color: gray;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+.word4{
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    width: 230px;
+    line-height: 1.38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.img3{
+    position: absolute;
+    top: -40px;
+    left: 300px;
+}
+.img3 img{
+    width: 220px;
+    height: 190px;
+}
+.word5{
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    font-size: 0.870rem;
+    width: 240px;
+}
+.word5 a{
+    text-decoration: underline;
+    color: #000;
+}
+.word5 a:hover{
+    text-decoration: underline;
+    color: #b73028;
+}
+.date2{
+    position: absolute;
+    top: 287px;
+    left: 300px;
+    color: gray;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.word6{
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    width: 230px;
+    line-height: 1.38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.img4{
+    position: absolute;
+    top: -40px;
+    left: 545px;
+}
+.img4 img{
+    width: 220px;
+    height: 190px;
+}
+.word7{
+    position: absolute;
+    top: 180px;
+    left: 545px;
+    font-size: 0.875rem;
+    width: 241px;
+}
+.word7 a{
+    text-decoration: underline;
+    color: #000;
+}
+.word7 a:hover{
+    text-decoration: underline;
+    color: #b73028;
+}
+.date3{
+    position: absolute;
+    top: 285px;
+    left: 545px;
+    color: gray;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.word8{
+    position: absolute;
+    top: 310px;
+    left: 545px;
+    width: 230px;
+    line-height: 1.38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.img5{
+    position: absolute;
+    top: 540px;
+    left: 50px;
+}
+.img5 img{
+    width: 220px;
+    height: 190px;
+}
+.word9{
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    font-size: 0.875rem;
+    width: 220px;
+}
+.word9 a{
+    text-decoration: underline;
+    color: #000;
+}
+.word9 a:hover{
+    text-decoration: underline;
+    color: #b73028;
+}
+.date4{
+    position: absolute;
+    top: 860px;
+    left: 50px;
+    color: gray;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.word10{
+    position: absolute;
+    top: 890px;
+    left: 50px;
+    width: 230px;
+    line-height: 1.38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.img6{
+    position: absolute;
+    top: 540px;
+    left: 300px;
+}
+.img6 img{
+    width: 220px;
+    height: 190px;
+}
+.word11{
+    position: absolute;
+    top: 750px;
+    left: 300px;
+    font-size: 0.875rem;
+    width: 220px;
+}
+.word11 a{
+    text-decoration: underline;
+    color: #000;
+}
+.word11 a:hover{
+    text-decoration: underline;
+    color: #b73028;
+}
+.date5{
+    position: absolute;
+    top: 860px;
+    left: 300px;
+    color: gray;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.word12{
+    position: absolute;
+    top: 890px;
+    left: 300px;
+    width: 230px;
+    line-height: 1.38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.img7{
+    position: absolute;
+    top: 540px;
+    left: 545px;
+}
+.img7 img{
+    width: 220px;
+    height: 190px;
+}
+.word13{
+    position: absolute;
+    top: 750px;
+    left: 545px;
+    font-size: 14px;
+    width: 241px;
+}
+.word13 a{
+    text-decoration: underline;
+    color: #000;
+}
+.word13 a:hover{
+    text-decoration: underline;
+    color: #b73028;
+}
+.date6{
+    position: absolute;
+    top: 860px;
+    left: 545px;
+    color: gray;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.word14{
+    position: absolute;
+    top: 890px;
+    left: 545px;
+    width: 230px;
+    line-height: 1.38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.more2{
+    position: absolute;
+    top: 1100px;
+    left: 50px;
+}
+.button3{
+    width: 110px;
+    height: 40px;
+    background-color: #d93d33;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.button3:hover{
+    color: #fff;
+    background-color: #b73028;
+}
+.section5{
+    position: relative;
+    height: 2020px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.word15{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 2.4375rem;
+    color: #fff;
+}
+.video{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+.video iframe{
+    width: 1100px;
+    height: 640px;
+}
+.head1{
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    font-size: 2.375rem;
+    color: #fff;
+}
+.img8{
+    position: absolute;
+    top: 920px;
+    left: 200px;
+}
+.img8 img{
+    width: 974px;
+    height: 576px;
+}
+.head2{
+    position: absolute;
+    top: 1550px;
+    left: 200px;
+    font-size: 1.0625rem;
+    color: #fff;
+    font-weight: bold;
+}
+.hr2{
+    position: absolute;
+    top: 1585px;
+    left: 200px;
+    width: 1120px;
+    background-color: #fff;
+    margin: 20px auto;
+    height: .9px;
+    border: none;
+}
+.word16{
+    position: absolute;
+    top: 1620px;
+    left: 200px;
+    color: #fff;
+    width: 1100px;
+}
+.head3{
+    position: absolute;
+    top: 1740px;
+    left: 200px;
+    font-size: 1.0625rem;
+    color: #fff;
+    font-weight: bold;
+}
+.hr3{
+    position: absolute;
+    top: 1775px;
+    left: 200px;
+    width: 1120px;
+    background-color: #fff;
+    margin: 20px auto;
+    height: .9px;
+    border: none;
+}
+.img9{
+    position: absolute;
+    top: 1810px;
+    left: 200px;   
+}
+.img9 img{
+    width: 180px;
+    height: 180px;
+}
+.img10{
+    position: absolute;
+    top: 1810px;
+    left: 425px;
+}
+.img10 img{
+    width: 180px;
+    height: 180px;
+}
+.img11{
+    position: absolute;
+    top: 1810px;
+    left: 650px;
+}
+.img11 img{
+    width: 180px;
+    height: 180px;
+}
+.img12{
+    position: absolute;
+    top: 1810px;
+    left: 880px;
+}
+.img12 img{
+    width: 180px;
+    height: 180px;
+}
+.img13{
+    position: absolute;
+    top: 1810px;
+    left: 1105px;
+    border: 6px solid white;
+}
+.img13 img{
+    width: 180px;
+    height: 180px;
+}
+.section5{
+position: relative;
+height: 5400px;
+background-color: #000;
+font-family: Arial, Helvetica, sans-serif;
+}
+.word15{
+position: absolute;
+top: 60px;
+left: 50px;
+font-size: 1.8rem;
+color: #fff;
+width: 710px;
+}
+.video{
+position: absolute;
+top: 185px;
+left: 50px;
+}
+.video iframe{
+width: 698px;
+height: 520px;
+}
+.head1{
+position: absolute;
+top: 750px;
+left: 50px;
+font-size: 1.5rem;
+color: #fff;
+}
+.img8{
+position: absolute;
+top: 820px;
+left: 50px;
+}
+.img8 img{
+width: 705px;
+height: 500px;
+}
+.head2{
+position: absolute;
+top: 1400px;
+left: 50px;
+font-size: 1.1rem;
+color: #fff;
+font-weight: bold;
+}
+.hr2{
+position: absolute;
+top: 1450px;
+left: 50px;
+width: 700px;
+background-color: #fff;
+margin: 20px auto;
+height: .9px;
+border: none;
+}
+.word16{
+position: absolute;
+top: 1500px;
+left: 50px;
+color: #fff;
+width: 730px;
+font-size: 1.05rem;
+line-height: 20.2px;
+}
+.head3{
+position: absolute;
+top: 1680px;
+left: 50px;
+font-size: 0.9rem;
+color: #fff;
+font-weight: bold;
+}
+.hr3{
+position: absolute;
+top: 1720px;
+left: 50px;
+width: 700px;
+background-color: #fff;
+margin: 20px auto;
+height: .9px;
+border: none;
+}
+.img9{
+position: absolute;
+top: 1750px;
+left: 50px;   
+}
+.img9 img{
+width: 700px;
+height: 700px;
+}
+.img10{
+position: absolute;
+top: 2470px;
+left: 50px;
+}
+.img10 img{
+width: 700px;
+height: 700px;
+}
+.img11{
+position: absolute;
+top: 3190px;
+left: 50px;
+}
+.img11 img{
+width: 700px;
+height: 700px;
+}
+.img12{
+position: absolute;
+top: 3910px;
+left: 50px;
+}
+.img12 img{
+width: 700px;
+height: 700px;
+}
+.img13{
+position: absolute;
+top: 4630px;
+left: 50px;
+border: 6px solid white;
+}
+.img13 img{
+width: 690px;
+height: 700px;
+}
+.section6{
+position: relative;
+height: 1000px;
+background-color: #f5f5f5;
+}
+.img14{
+position: absolute;
+left: 50px;
+top: 50px;
+}
+.img14 img{
+width: 150px;
+height: 38px;
+}
+.privacy{
+position: absolute;
+left: 50px;
+top: 100px;
+font-size: 1.1875rem;
+}
+.privacy a{
+text-decoration: none;
+color: #000;
+}
+.privacy a:hover{
+text-decoration: underline;
+color: #000;
+}
+.rules{
+position: absolute;
+left: 50px;
+top: 132px;
+font-size: 1.1875rem;
+}
+.rules a{
+text-decoration: none;
+color: #000;
+}
+.rules a:hover{
+text-decoration: underline;
+color: #000;
+}
+.cookies{
+position: absolute;
+left: 50px;
+top: 160px;
+font-size: 1.1875rem;
+}
+.cookies a{
+text-decoration: none;
+color: #000;
+}
+.cookies a:hover{
+text-decoration: underline;
+color: #000;
+}
+.copy{
+position: absolute;
+left: 50px;
+top: 188px;
+font-size: 1.1875rem;
+}
+.copy a{
+text-decoration: none;
+color: #000;
+}
+.copy a:hover{
+text-decoration: underline;
+color: #000;
+}
+.manage{
+position: absolute;
+left: 50px;
+top: 220px;
+font-size: 1.1875rem;
+}
+.manage a{
+text-decoration: none;
+color: #000;
+}
+.manage a:hover{
+text-decoration: underline;
+color: #000;
+}
+.terms{
+position: absolute;
+left: 50px;
+top: 255px;
+font-size: 1.1875rem;
+}
+.terms a{
+text-decoration: none;
+color: #000;
+}
+.terms a:hover{
+text-decoration: underline;
+color: #000;
+}
+.annual{
+position: absolute;
+left: 50px;
+top: 290px;
+font-size: 1.1875rem;
+}
+.annual a{
+text-decoration: none;
+color: #000;
+}
+.annual a:hover{
+text-decoration: underline;
+color: #000;
+}
+.report{
+position: absolute;
+left: 50px;
+top: 330px;
+font-size: 1.1875rem;
+}
+.report a{
+text-decoration: none;
+color: #000;
+}
+.report a:hover{
+text-decoration: underline;
+color: #000;
+}
+.modern{
+position: absolute;
+left: 50px;
+top: 370px;
+font-size: 1.1875rem;
+}
+.modern a{
+text-decoration: none;
+color: #000;
+}
+.modern a:hover{
+text-decoration: underline;
+color: #000;
+}
+.work{
+position: absolute;
+left: 50px;
+top: 410px;
+font-size: 1.1875rem;
+}
+.work a{
+text-decoration: none;
+color: #000;
+}
+.work a:hover{
+text-decoration: underline;
+color: #000;
+}
+.help{
+position: absolute;
+left: 50px;
+top: 450px;
+font-size: 1.1875rem;
+}
+.help a{
+text-decoration: none;
+color: #000;
+}
+.help a:hover{
+text-decoration: underline;
+color: #000;
+}
+.icon7{
+position: absolute;
+top: 450px;
+left: 210px;
+}
+.twitter{
+    position: absolute;
+    top: 528px;
+    left: 50px;
+    font-size: 1.5rem;
+}
+.linkedin{
+    position: absolute;
+    top: 588px;
+    left: 50px;
+    font-size: 1.5rem;
+}
+.instagram{
+    position: absolute;
+    top: 638px;
+    left: 50px;
+    font-size: 1.5rem;
+}
+.hr4{
+position: absolute;
+top: 675px;
+left: 50px;
+width: 700px;
+background-color: #000;
+margin: 20px auto;
+height: .9px;
+border: none;
+}
+.word17{
+position: absolute;
+left: 50px;
+top: 700px;
+font-size: 0.875rem;
+width: 700px;
+}
+.word18{
+position: absolute;
+left: 50px;
+top: 800px;
+font-size: 1.3rem;
+width: 400px;
+}
+.icon8{
+position: absolute;
+left: 460px;
+top: 805px;
+}
+.word19{
+position: absolute;
+left: 50px;
+top: 840px;
+font-size: 1.3rem;
+}
+.icon9{
+position: absolute;
+left: 250px;
+top: 845px;
+}
